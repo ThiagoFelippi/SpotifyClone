@@ -1,0 +1,160 @@
+body {
+    background: url(../imagens/capa.png), url(../imagens/ruido.png), linear-gradient(50deg, #ff4169, #7c26f8);
+    background-attachment: fixed;
+}
+
+html,
+body,
+#home {
+    height: 100%;
+}
+
+nav.navbar-transparente {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 15px 0px;
+}
+
+.navbar-light .navbar-toggler {
+    outline: none;
+    border-color: white;
+    /* para alterar a borda do botão responsivo   */
+}
+
+.divisor {
+    width: 1px;
+    background-color: white;
+    margin: 12px 15px;
+}
+
+.capa {
+    text-align: center;
+}
+
+h1 {
+    font-weight: 900;
+    margin-bottom: 50px;
+    color: white;
+}
+
+#servicos {
+    background-color: white;
+    padding: 20px 0px;
+}
+
+#servicos h2,
+h3 {
+    color: #7c25f8;
+}
+
+.albuns {
+    padding: 10px 0px;
+}
+
+#recursos h2 {
+    color: white;
+}
+
+#recursos h3 {
+    color: #9bf0e1;
+}
+
+#recursos {
+    color: white;
+}
+
+#recursos {
+    padding: 20px 0px;
+}
+
+.rotacionar {
+    -ms-transform: rotate(30deg);
+    -webkit-transform: rotate(30deg);
+    transform: rotate(30deg);
+    padding-left: 80px;
+    margin-bottom: 120px;
+}
+
+h2 {
+    font-size: 3em;
+    font-weight: 700;
+
+}
+
+h3 {
+    font-size: 2em;
+    font-weight: 700;
+}
+
+
+footer {
+    background-color: black;
+    position: relative;
+    padding: 50px 0px 50px 0px;
+    z-index: 0;
+}
+
+footer h4 {
+    color: #919496;
+    font-size: 0.8em;
+    text-transform: uppercase;
+}
+
+footer .navbar-nav a {
+    color: white;
+    font-size: 0.8em;
+}
+
+footer .navbar-nav a:hover {
+    color: #9bf0e1;
+    text-decoration: none;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer ul li {
+    float: right;
+    margin: 0px 10px;
+}
+
+@media (min-width: 596px) {
+    h1 {
+        font-size: 3em;
+    }
+
+    .btn-custom {
+        margin: 20px;
+    }
+}
+
+@media (min-width: 768px) {
+    h1 {
+        font-size: 4em;
+    }
+
+    .btn-custom {
+        margin-left: 10px;
+    }
+
+}
+
+@media (min-width: 992px) {
+    h1 {
+        font-size: 5em;
+    }
+
+    .btn-custom {
+        margin-left: 20px;
+    }
+}
+
+@media (min-width: 1200px) {
+    h1 {
+        font-size: 6em;
+    }
+
+    .btn-custom {
+        margin-left: 30px;
+    }
+}
